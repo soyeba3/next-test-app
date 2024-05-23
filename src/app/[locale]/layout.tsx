@@ -24,6 +24,32 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        <title>Layout</title>
+        <meta property="og:title" content="Soyeb testing title in layout" />
+        <meta
+          property="og:image"
+          content="https://support.rebrandly.com/hc/article_attachments/17557974325021"
+        />
+        <meta
+          property="og:image:secure_url"
+          content="https://support.rebrandly.com/hc/article_attachments/17557974325021"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+        <meta
+          property="og:image:alt"
+          content="A shiny red apple with a bite taken out"
+        />
+        <meta
+          name="twitter:image"
+          content="https://avatars.githubusercontent.com/u/88161150?v=4"
+        />
+        <meta name="twitter:image:type" content="image/jpeg" />
+        <meta name="twitter:image:width" content="400" />
+        <meta name="twitter:image:height" content="300" />
+      </head>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <Navbar />

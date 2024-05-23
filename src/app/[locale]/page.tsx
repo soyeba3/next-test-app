@@ -11,7 +11,7 @@ export default async function Home() {
     <>
       <head>
         <title>The Rock (1996)</title>
-        <meta property="og:title" content="Soyeb testing title" />
+        <meta property="og:title" content="Soyeb testing title in root" />
         <meta
           property="og:image"
           content="https://support.rebrandly.com/hc/article_attachments/17557974325021"
