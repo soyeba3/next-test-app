@@ -11,11 +11,8 @@ export default async function SingleTodo({ params }: SingleTodoProps) {
   return (
     <>
       <head>
-        <title>Layout</title>
-        <meta
-          property="og:title"
-          content={`Soyeb testing ${singleTodo.title}`}
-        />
+        <title>Single Todo</title>
+        <meta property="og:title" content={`Soyeb ${singleTodo.title}`} />
         <meta
           property="og:image"
           content="https://support.rebrandly.com/hc/article_attachments/17557974325021"
@@ -24,9 +21,10 @@ export default async function SingleTodo({ params }: SingleTodoProps) {
           property="og:image:secure_url"
           content="https://support.rebrandly.com/hc/article_attachments/17557974325021"
         />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="600" />
+        <meta property="og:image:type" content="website" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="Next js test app" />
         <meta
           property="og:image:alt"
           content="A shiny red apple with a bite taken out"
