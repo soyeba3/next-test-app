@@ -11,14 +11,29 @@ export default async function Home() {
     <>
       <head>
         <title>The Rock (1996)</title>
-        <meta property="og:title" content="The Rock" />
-        <meta property="og:type" content="video.movie" />
-        <meta property="og:url" content="https://hellofood.com.bd/" />
+        <meta property="og:title" content="Soyeb testing title" />
         <meta
           property="og:image"
-          content="https://images.unsplash.com/photo-1716369414811-ab4b06d8fb0e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          content="https://support.rebrandly.com/hc/article_attachments/17557974325021"
         />
-        ...
+        <meta
+          property="og:image:secure_url"
+          content="https://support.rebrandly.com/hc/article_attachments/17557974325021"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+        <meta
+          property="og:image:alt"
+          content="A shiny red apple with a bite taken out"
+        />
+        <meta
+          name="twitter:image"
+          content="https://avatars.githubusercontent.com/u/88161150?v=4"
+        />
+        <meta name="twitter:image:type" content="image/jpeg" />
+        <meta name="twitter:image:width" content="400" />
+        <meta name="twitter:image:height" content="300" />
       </head>
       <div className="container">
         <h1 className="p-4 text-lg font-bold text-center">Todos</h1>
