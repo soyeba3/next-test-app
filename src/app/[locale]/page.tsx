@@ -13,13 +13,10 @@ export default async function Home() {
         <title>The Rock (1996)</title>
         <meta property="og:title" content="The Rock" />
         <meta property="og:type" content="video.movie" />
-        <meta
-          property="og:url"
-          content="https://www.imdb.com/title/tt0117500/"
-        />
+        <meta property="og:url" content="https://hellofood.com.bd/" />
         <meta
           property="og:image"
-          content="https://ia.media-imdb.com/images/rock.jpg"
+          content="https://images.unsplash.com/photo-1716369414811-ab4b06d8fb0e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
         ...
       </head>
