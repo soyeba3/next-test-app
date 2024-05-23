@@ -36,8 +36,8 @@ export default async function RootLayout({
           content="https://support.rebrandly.com/hc/article_attachments/17557974325021"
         />
         <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="300" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
         <meta
           property="og:image:alt"
           content="A shiny red apple with a bite taken out"
