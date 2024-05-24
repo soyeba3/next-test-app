@@ -8,8 +8,18 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next Test App",
-  description: "Next test app for testing purpose",
+  title: "Tajdid Academy",
+  description:
+    "Tajdid Academy, a beacon of knowledge and enlightenment in the realm of Islamic education.",
+  openGraph: {
+    title: "Tajdid Academy",
+    images: [
+      `https://dev-assets.tajdidacademy.com/assets/images/homepage-social-share-image.png`,
+    ],
+    type: "website",
+    description:
+      "Tajdid Academy, a beacon of knowledge and enlightenment in the realm of Islamic education.",
+  },
 };
 
 export default async function RootLayout({
