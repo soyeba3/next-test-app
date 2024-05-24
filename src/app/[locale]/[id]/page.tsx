@@ -1,5 +1,24 @@
 import { getSingleTodo } from "@/app/actions/todos-action";
 
+import type { Metadata } from "next";
+
+type Props = {
+  params: { id: string };
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const singleTodo = await getSingleTodo(Number(params.id));
+
+  return {
+    title: singleTodo.title,
+    openGraph: {
+      images: [
+        "https://support.rebrandly.com/hc/article_attachments/17557974325021",
+      ],
+    },
+  };
+}
+
 type SingleTodoProps = {
   params: {
     id: number;
@@ -10,7 +29,7 @@ export default async function SingleTodo({ params }: SingleTodoProps) {
   const singleTodo = await getSingleTodo(Number(params.id));
   return (
     <>
-      <head>
+      {/* <head>
         <title>Single Todo</title>
         <meta property="og:title" content={`Soyeb ${singleTodo.title}`} />
         <meta
@@ -36,7 +55,7 @@ export default async function SingleTodo({ params }: SingleTodoProps) {
         <meta name="twitter:image:type" content="image/jpeg" />
         <meta name="twitter:image:width" content="400" />
         <meta name="twitter:image:height" content="300" />
-      </head>
+      </head> */}
       <div className="container space-y-10">
         <h3 className="text-xl font-bold">This is single todo page</h3>
         <div>
